@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h3,
+h4,
+h6 {
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.features-section {
+  background-color: #f5f5f5;
+}
+
+.buy-now-btn,
+.more-info-products {
+  background-color: #ff3e1e;
+  color: white;
+}
+
+.more-info-docs {
+  background-color: #f7d4c9;
+  color: #ff3e1e;
+}
+
+.badge-color {
+  background-color: #ff3e1e;
+}
+
+.features-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: flex-start;*/
+}
+
+.header-image {
+  background-image: url("/images/undraw_data_reports_706v.svg");
+  min-height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.feature-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-image {
+  min-height: 100px;
+  width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.team-feature-image {
+  background-image: url("/images/undraw_dashboard_re_3b76.svg");
+}
+
+.reporting-feature-image {
+  background-image: url("/images/undraw_segmentation_re_gduq.svg");
+}
+
+.dashboards-feature-image {
+  background-image: url("/images/undraw_data_re_80ws.svg");
+}
+
+.team-2-feature-image {
+  background-image: url("/images/undraw_team_collaboration_re_ow29.svg");
+}
+
+.statistics-feature-image {
+  background-image: url("/images/undraw_statistics_re_kox4.svg");
+}
+
+.project-management-feature-image {
+  background-image: url("/images/undraw_project_complete_lwss.svg");
+}
+
+.feature-description {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.blog-section {
+  height: auto;
+}
+
+.blog-images {
+  min-height: 245px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog-image-1 {
+  background-image: url("/images/blog-3.avif");
+}
+
+.blog-image-2 {
+  background-image: url("/images/blog-1.avif");
+}
+
+.blog-image-3 {
+  background-image: url("/images/blog-2.avif");
+}
+
+.user-info-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  max-height: 4rem;
+}
+
+.blog-box {
+  position: relative;
+  height: 100%;
+  padding-bottom: 6rem;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 50px;
+}
+.user-name {
+  font-weight: bold;
+}
+
+.blog-subscription-title {
+  text-align: left;
+}
+
+.blog-subscription-section {
+  position: relative;
+  top: 50px;
+  background-color: white;
+}
+
+.btnColor {
+  background-color: #f8593d;
+  color: white;
+  border: none;
+  margin-right: 4rem;
+}
+
+.pancita {
+  background-image: url("../images/curveGray.svg");
+  background-size: cover;
+  width: 100%;
+  height: 60px;
+}
+/* FOOTER BEGIN */
+
+footer {
+  background-color: black;
+}
+
+.ImgLogos {
+  display: flex;
+  flex-direction: row;
+}
+
+.Logos {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.FooterCh {
+  color: #bebebe;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.FooterTitle {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.footerContent {
+  margin-bottom: 3rem;
+  margin-top: 8rem;
+}
+
+.logos {
+  color: white;
+}
+
+/* FOOTER ENDS */
