@@ -160,6 +160,14 @@ p {
   width: 100%;
   height: 60px;
 }
+
+.pancitaDark {
+  background-image: url("../images/curveDarkGray.svg");
+  background-size: cover;
+  width: 100%;
+  height: 40px;
+}
+
 /* FOOTER BEGIN */
 
 footer {
